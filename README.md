@@ -17,9 +17,9 @@ Dates 3/16-3/25
 **Dealing with the data after I retreived it changing it into json then serving it into a database.**
 
 ## Skateboard
-**Parse HackerNews front page, grab the title text of all posts, and print them to terminal.**
+**Parse A league WIKI page, grab the name, title, and icon and print them to terminal.**
 ## Bike
-**Parse a League WIKI page for stats then save it to a JSON file.**
+**Parse a League WIKI page for all stats then save it to a JSON file.**
 ## Car
 **Parse all League champion WIKI pages for all stats and save it to a JSON file, then serve it into my API**
 
