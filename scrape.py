@@ -6,7 +6,11 @@ url = 'https://leagueoflegends.fandom.com/wiki/Tryndamere'
 
 r = requests.get(url)
 
-soup = BeautifulSoup(r.content)
+soup = BeautifulSoup(r.content, 'html.parser')
 
-print(soup.prettify())
-print(r.content[:100])
+champion_name = soup.select_one('.page-header__title').text.strip()
+print(champion_name)
+#soup = BeautifulSoup(r.content)
+
+#print(soup.prettify())
+#print(r.content[:100])
