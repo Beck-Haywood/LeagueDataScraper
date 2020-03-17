@@ -1,4 +1,4 @@
-# Juniors Spring Intensive Deliverable Proposal</h1
+# Juniors Spring Intensive Deliverable Proposal
 Dates 3/16-3/25
 
 **Beck Haywood:**
